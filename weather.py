@@ -12,7 +12,7 @@ from colors import pickColor
 class WeatherWithAccuweather(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.APIkey = 'XP5GhBSUjDUAvirtSypi5kU6RmtwCG52'
+        self.APIkey = 'YOUR API KEY GOES HERE'
         # initial geometry----------------------------------------------------------------------------------------------
         self.title('Weather forecasts')
         self.attributes('-zoomed', True) # full screen
